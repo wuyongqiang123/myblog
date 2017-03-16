@@ -67,9 +67,10 @@ app.use('/admin', require('./routers/admin'));
 app.use('/api', require('./routers/api'));
 app.use('/', require('./routers/main'));
 
-//监听http请求 //mongodb://localhost:27017/blog
-//mlab数据库  mongodb://wuyongqiang:wuyongqiang1314@ds129610.mlab.com:129610/blog
-mongoose.connect('mongodb://wuyongqiang:wuyongqiang1314@ds129610.mlab.com:129610/blog', function(err) {
+//监听http请求
+//mlab数据库   //mongodb://localhost:27017/blog
+//wuyongqiang2540
+mongoose.connect('mongodb://wuyongqiang:wuguokgdjs@ds131900.mlab.com:31900/blog', function(err) {
     if (err) {
         console.log('数据库连接失败');
     } else {
