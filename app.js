@@ -68,8 +68,8 @@ app.use('/api', require('./routers/api'));
 app.use('/', require('./routers/main'));
 
 //监听http请求 //mongodb://localhost:27017/blog
-//mlab数据库  mongodb://wuyongqiang:wuguokgdjs123@ds058579.mlab.com:58579/blog
-mongoose.connect('mongodb://wuyongqiang:wuguokgdjs123@ds058579.mlab.com:58579/blog', function(err) {
+//mlab数据库  mongodb://wuyongqiang:wuguokgdjs1314@ds129610.mlab.com:129610/blog
+mongoose.connect('mongodb://wuyongqiang:wuguokgdjs1314@ds129610.mlab.com:129610/blog', function(err) {
     if (err) {
         console.log('数据库连接失败');
     } else {
